@@ -1,0 +1,99 @@
+/*Grid layout the whole Page*/
+main{
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:176px auto 691px;
+}
+
+.content{
+   grid-column-start:1;
+     grid-column-end:-1;
+    height: 1000px;
+    background-color:dimgrey;
+}
+footer{
+   grid-column-start:1;
+     grid-column-end:-1;
+    background-color:blueviolet;
+}
+
+/*Nav*/
+nav{
+   grid-column-start:1;
+     grid-column-end:-1;
+    background-color:#D33A2C; 
+    display: flex;
+    padding: 30px
+}
+
+nav > .logo > a >img{
+    height: 79px;
+    width: 59px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+     font-weight: 700;
+     box-shadow: 1px 6px 12px -7px black;
+    
+}
+
+nav > ul > li > a > img{
+    height: 44px;
+    width: 39px;
+     transform: rotate(-20deg);
+    transition: all 0.5s;
+  
+   
+}
+nav > ul > li > a:hover > img {
+     transform: rotate(0deg); 
+ 
+}
+nav > ul > li > a:hover > h2,nav > ul > li > a:hover > p{
+    color: black;
+   
+}
+nav > ul > li > a:hover{
+    box-shadow: none;
+}
+
+nav > ul > li > a > h2{
+    font-size: 24px;
+    margin-top: 16px;
+    color: white;
+    font-family: 'Sniglet', cursive;
+}
+nav > ul > li > a > p{
+    font-size: 16px;
+    color: white;
+    margin-top: 13px;
+    font-style: italic;
+    font-weight: 100;
+font-family: 'Open Sans', sans-serif;
+}
+.menuButton {
+	display: flex;
+    align-items: center;
+}
+.logo {
+	display: flex;
+    align-items: center;
+}
+.menuButton > button {
+	height: 50px;
+    width:127.5px;
+    color:white;
+    background-color:#D33A2C; 
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
