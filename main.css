@@ -1,29 +1,21 @@
 /*Grid layout the whole Page*/
 main{
-    display: grid;
-    grid-template-columns:repeat(12,1fr);
-    grid-template-rows:176px auto 691px;
+    display:flex;
+    flex-direction: column;
 }
 
-.content{
-   grid-column-start:1;
-     grid-column-end:-1;
-    height: 1000px;
-    background-color:dimgrey;
-}
+
 footer{
-   grid-column-start:1;
-     grid-column-end:-1;
-    background-color:blueviolet;
+   
+   
 }
 
 /*Nav*/
 nav{
-   grid-column-start:1;
-     grid-column-end:-1;
+   
     background-color:#D33A2C; 
     display: flex;
-    padding: 30px
+    padding: 30px;
 }
 
 nav > .logo > a >img{
@@ -96,4 +88,209 @@ font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     cursor: pointer;
     font-weight: 700;
+}
+/*Styles for the first content in main content section*/
+.content{
+ 
+    height: 1000px;
+    background-color:dimgrey;
+}
+.firstContent {
+	display: flex;
+    flex-direction: column;
+}
+
+.firstContent > header {
+	position: relative;
+    width: 100%;
+}
+.firstContent > header > div:nth-child(1) {
+	
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:40px;
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    color: #333333;
+    
+    
+}
+.firstContent > header > div:nth-child(2) {
+    position: absolute;
+    text-align: center;
+    right:60px;
+    top:40px;
+    
+    
+}
+.firstContent > header > div > div >button{
+    height: 40px;
+    width:157.5px;
+    color:white;
+    background-color:#D33A2C; 
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+        margin-top: 10px;
+     transition: all 0.3s;  
+}
+
+.firstContent > header > div > div >button:hover {
+     background-color: white;
+    color:#C7372A;
+}
+
+.headTitleContainer > div{
+    
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+    font-family: 'Sniglet', cursive;
+    font-weight:bolder;
+    margin-top: 24px;
+    
+}
+
+.rowOne,.rowTwo {
+	display: flex;
+    flex-direction: row;
+    width: 100%;
+} 
+.headTitleContainer{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.headTitleTwo{
+	background: white;
+    width: 100%;
+    padding: 10px;
+     
+    
+}
+.headTitle{
+	background: white;
+    width: 100%;
+    padding: 10px;
+      box-shadow: 0px 108px 28px -24px black;
+}
+.headIcon > img{
+  height: 61px;
+    width: 61px;
+    border-radius: 10px;
+    background: white;
+        margin-right: 30px;
+    
+    transform: rotate(-20deg);
+    transition: all 0.3s;  
+}
+.headIcon > img:hover{
+     transform: rotate(0deg); 
+ 
+}
+
+.headIconContainer{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.rowOne  > a > .firstArticle{
+	       background: #BC3428;
+    height: 722px;
+    width: 643.5px;
+    /* padding: 20px; */
+    padding-top: 238px;
+    padding-left: 68px;
+
+    box-sizing: border-box;
+}
+ .rowOne > a > .secondArticle{
+	background:#C7372A;
+    height: 722px;
+    width: 643.5px;
+       padding-top: 238px;
+    padding-left: 68px;
+
+        box-sizing: border-box;
+}
+ .rowTwo  > a > .thirdArticle{
+	background: #B13125;
+      height: 573px;
+    width: 643.5px;
+    padding-top: 73px;
+    padding-left: 68px;
+    box-sizing: border-box;
+
+        box-sizing: border-box;
+}
+ .rowTwo > a > .fourthArticle{
+	background: #BC3428;
+        height: 573px;
+    width: 643.5px;
+    padding-top: 73px;
+    padding-left: 68px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.authorDetails {
+	display: flex;
+}
+.authorDetails > img{
+       height: 75px;
+    width: 75px;
+    border-radius: 14px;
+    transform: rotate(-20deg);
+    border: 4px solid white;
+}
+.authorDetails > h2{
+   font-size: 21px;
+    font-family: 'Sniglet', cursive;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 101px;
+    margin-top: 10px;
+    /* align-self: center; */
+    text-decoration: none;
+}
+.authorDetails > h2 > span{
+        font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.articleTitle > h1 {
+        font-size: 47px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+    color: white;
+        font-family: 'Sniglet', cursive;
+}
+.articleTitle > h1 > span {
+        font-size: 15px;
+   
+}
+.tags {
+	
+        display: flex;
+    color: white;
+         font-family: 'Sniglet', cursive;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.tags > p:nth-child(2),.tags > p:nth-child(3){
+  padding-left: 20px;  
+}
+
+.arrowIcon {
+	    margin-top: 93px;
 }
