@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{270:function(t,e,n){"use strict";n.r(e);var o=n(699),a=n.n(o);e.default=function(t){var e=t.element,n=e.getAttribute("datetime");e.textContent="".concat(a()(n)," ago")}}}]);
