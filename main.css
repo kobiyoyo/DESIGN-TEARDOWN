@@ -161,6 +161,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .articleOne {
 	height: 100%;
+    width: 100%;
 }
 
 .rowOne{
@@ -217,7 +218,7 @@ font-family: 'Open Sans', sans-serif;
 .rowOne  >  .firstArticle{
 	       background: #BC3428;
     height: 722px;
-    width: 643.6px;
+       width: 100%;
     padding-top: 238px;
     padding-left: 68px;
 
@@ -226,7 +227,7 @@ font-family: 'Open Sans', sans-serif;
  .rowOne > .secondArticle{
 	background:#C7372A;
     height: 722px;
-      width:643.6px;
+       width: 100%;
        padding-top: 238px;
     padding-left: 68px;
 
