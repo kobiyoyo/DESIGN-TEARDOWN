@@ -661,11 +661,13 @@ margin-bottom: 1.5em;
   .back-info > .btn-link{
       margin-bottom: 1.5em;
   }
-.back-info > .btn-link > .btn-comm{
+.back-info >  .btn-comm{
     padding: 18px 24px;
     border-radius: 10px;
     font-size: 25px;
     color: #267DCC;
+    background-color: white;
+    border: 1px solid white;
   }
 .designer{
     display: flex;
@@ -692,7 +694,7 @@ transform: none;
 }
 
 .designer-one > img{
-    border:10px solid red;
+    border:10px solid #D3392C;
     border-radius: 10px;
 
 }
@@ -739,7 +741,7 @@ font-size: 17px;
 .designer-first > img{
     width: 76px;
     height: 76px;
-    border:5px solid red;
+    border:5px solid #D3392C;
     border-radius: 10px;
 }
 
@@ -786,11 +788,13 @@ transform: none;
     color: #267DCC;
     
 }
+
 .link-more{
     margin:0 auto;
     margin-top: 50px;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid #D3392C;
     height: 30px;
+
 }
 .link-more a{
     font-size: 17px;
@@ -849,12 +853,14 @@ font-family: 'Merriweather', serif;
 margin-bottom: 1.5em;
  border-bottom: 5px solid hsl(5, 66%, 70%);
 }
-.banner-link > .btn-banner{
+ .btn-banner{
 
     padding: 13px 20px;
     border-radius: 10px;
     font-size: 22px;
     color: #267DCC;
+     background-color: white;
+     border: 1px solid white;
 }
 
 a > .book{
@@ -890,7 +896,7 @@ margin-top: 20px;
 
 .articles-one{
     width: 475px;
-    height: 670px;
+    height:720px;
  transition: all 0.5s ease-out;
 }
 .articles-one:hover{
@@ -913,6 +919,9 @@ margin-top: 20px;
     font-size:28px;
     margin-top: 1em;
     width: 80%;
+}
+.art-title-width{
+    height: 1000px;
 }
 .art-links{
        width: 80%;
@@ -984,8 +993,8 @@ text-align: center;
 color: #267DCC;
 }
 .redArticleContent > .second-comm{
-    width: 482px;
-    height: 521px;
+    width: 300px;
+    height: 350px;
 }
 
 .link-more{
