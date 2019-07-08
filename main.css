@@ -1,4 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spinnaker&display=swap');
+
+
 /*Grid layout the whole Page*/
+
+body{
+    font-family: 'Spinnaker', sans-serif;
+}
 main{
     display:flex;
     flex-direction: column;
@@ -595,12 +604,474 @@ padding: 60px 40px 0 40px;
 
 
 /*Styles for the sixth content in main content section*/
-.sixthContent{
-  height: 924px;
-background-image: linear-gradient(#ce05a9 10%,#3e62ff 100%);
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+
+
+
+/*MY PART DANILO*/
+
+
+.half-part-one{
+    background-image: linear-gradient(#ce05a9 10%,#3e62ff 100%);
+   width: 100%;
+   height: 925px;
+}
+.back-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+ .back-info > .conf-panel__meta {
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700;
+       margin-bottom: 1.5em;
+color: #fff;
+text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.back-info > .comm-link{
+font-size: 50px;
+color: white;
+text-decoration: none;
+font-weight: 500;
+font-family: 'Merriweather', serif;
+margin-bottom: 1.5em;
+}
+
+  .back-info > .about-commercial{
+    
+    font-size: 26px;
+    color: white;
+    width: 66%;
+    text-align: center;
+     margin-bottom: 1.5em;
+  } 
+
+   .back-info >.back-image {
+    width: 920px;
+        height: 557px;
+  }
+  .back-info > .btn-link{
+      margin-bottom: 1.5em;
+  }
+.back-info > .btn-link > .btn-comm{
+    padding: 18px 24px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #267DCC;
+  }
+.designer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+   
+}
+.design-wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.designer-one > img{
+border-radius: 50%;
+ transition:transform 0.8s ease-in-out;
+ transform: rotate(-20deg);
+ box-shadow: 0px 27px 25px -19px;
+}
+.designer-one > img:hover{
+box-shadow: none;
+transform: none;
+}
+
+.designer-one > img{
+    border:10px solid red;
+    border-radius: 10px;
+
+}
+.design-title{
+    margin-left: 120px;
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+    text-align:left;
     
 }
+.design-text{
+    margin-left: 120px;
+    font-size: 17px;
+    line-height: 5px;
+    line-height: 35px;
+    text-align:left;
+    
+  width: 85%;
+
+}
+.design-text > a{
+
+font-size: 17px;
+    color: #267DCC;
+    
+}
+
+
+/*DESIGNERS*/
+
+
+.designers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.designer-wrapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.designer-first > img{
+    width: 76px;
+    height: 76px;
+    border:5px solid red;
+    border-radius: 10px;
+}
+
+.designer-title-one , a{
+    
+    font-size: 17px;
+    color: #666666;
+    margin-bottom: 1.5rem;
+}
+.designer-title-two a{
+   
+    font-size: 30px;
+    color: black;
+    
+    text-decoration:none;
+}
+
+.designer-text{
+       
+    font-size: 17px;
+    color: black;
+    line-height: 30px;
+    width: 458px;
+    height: 156px;
+    margin-top: 1.5rem;
+}
+.distance{
+margin-left: 5px;
+
+}
+.designer-first > img{
+
+ transition:transform 0.8s ease-in-out;
+ transform: rotate(-20deg);
+ box-shadow: 0px 27px 25px -19px;
+}
+.designer-first > img:hover{
+box-shadow: none;
+transform: none;
+}
+
+.designer-text > a{
+    font-size: 17px;
+    color: #267DCC;
+    
+}
+.link-more{
+    margin:0 auto;
+    margin-top: 50px;
+    border-bottom: 5px solid red;
+    height: 30px;
+}
+.link-more a{
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+/*BANNER
+*/
+
+
+.banner{
+    width: 100%;
+        height: 335px;
+    background-color: hsl(5, 65%, 50%); 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.ban-position{
+     text-align: left;
+     margin-left: 20px;
+     margin-top: 20px;
+  margin-left: 50px;
+
+
+
+}
+
+.banner-title{
+font-size: 23px;
+    color: white;
+margin-bottom: 1em;
+}
+.banner-text{
+margin-top: 1em;
+     
+    font-size: 20px;
+    color: white;
+        width: 80%;
+   line-height: calc(1.5em + .2vw);
+   margin-bottom: 1.5em;
+     
+}
+
+.banner-link-title a{
+
+    font-size: 40px;
+color: white;
+text-decoration: none;
+font-weight: 500;
+font-family: 'Merriweather', serif;
+margin-bottom: 1.5em;
+ border-bottom: 5px solid hsl(5, 66%, 70%);
+}
+.banner-link > .btn-banner{
+
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #267DCC;
+}
+
+a > .book{
+position: relative;
+    right: -50px;
+     bottom: 165px;
+     width: 50%;
+
+
+}
+a > .book > img{
+  width: 322px;
+  height: 414px;  
+  float: right;
+ transition:transform 0.8s ease-in-out;
+ transform: rotate(-20deg);
+}
+
+a > .book > img:hover{
+    
+transform: none;
+}
+.second-articles{
+
+display: flex;
+flex-direction: row;
+width: 97%;
+margin-left: 3%;
+margin-top: 20px;
+
+
+   }
+
+.articles-one{
+    width: 475px;
+    height: 670px;
+ transition: all 0.5s ease-out;
+}
+.articles-one:hover{
+      background: white;
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 1px 0px 25px gray;
+}
+.art-position{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.guides{
+    font-size: 14px;
+    color: grey;
+}
+
+.art-title{
+    font-size:28px;
+    margin-top: 1em;
+    width: 80%;
+}
+.art-links{
+       width: 80%;
+ margin-top: 1em;
+}
+.art-links > ul{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+.art-links li::before {content: "•"; color: red;font-size: 25px;}
+
+
+   .art-links li {
+
+    padding-top: 30px;
+   }
+   .art-links li a{
+           font-size: 20px;
+    color: #267DCC;
+    
+    text-decoration: underline;
+
+   }
+
+  /* LAST CONTENT BEFORE FOOTER*/
+
+  .before-footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.redArt > a{
+    text-decoration: none;
+     font-size: 33px;
+    font-weight: bold;
+color: white;
+}
+.con-two{
+    width: 80%;
+}
+
+.btn-smash{
+      height: 56px;
+width: 321.5px; 
+border: 3px solid white;
+background-color: white;
+border-radius:10px 0 0 10px;
+font-size: 17px;
+cursor: pointer;
+font-weight: 700;
+margin-top: 21px;
+text-align: center;
+color: black;
+}
+.subscribe{
+     height: 56px;
+    width: 155.5px;
+border: 3px solid white;
+background-color: white;
+border-radius:0 10px 10px 0;
+font-size: 17px;
+cursor: pointer;
+font-weight: 700;
+margin-top: 21px;
+text-align: center;
+color: #267DCC;
+}
+.redArticleContent > .second-comm{
+    width: 482px;
+    height: 521px;
+}
+
+.link-more{
+    margin-top: 200px;
+}
+/*FOOTER PART*/
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+       height: 585px;
+    background-color: hsl(5, 65%, 50%);
+}
+.footer-title{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 50px;
+}
+.footer-content{
+    width:1256px;
+    height: 235px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-links{
+       width: 100%;
+   margin-top: 50px;
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: -3%;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.main-links > li::before{
+   
+    content: "•"; color: #811d15;font-size: 30px;
+}
+.main-links > li{
+    display: inline-block;
+    padding-top: 10px;
+
+}
+.main-links > li  > a{
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+.main-links > li  > a:hover{
+    color:black; 
+}
+.footer-text-pos{
+    display: flex;
+    flex-direction: column;
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+}
+.footer-text{
+    font-size: 17px;
+    color: white;  
+    margin-top: 10px; 
+}
+.footer-text > a{
+    color: white;
+    text-decoration: underline;
+}
+.last-links-width{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+
+
+}
+.last-links{
+    display: flex;
+    flex-direction: row;
+}
+.last-links a{
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
