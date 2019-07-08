@@ -16,10 +16,6 @@ main{
 }
 
 
-footer{
-   
-   
-}
 
 /*Nav*/
 nav{
@@ -101,11 +97,7 @@ font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
 /*Styles for the first content in main content section*/
-.content{
- width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
 .firstContent {
 	display: flex;
     flex-direction: column;
@@ -167,6 +159,9 @@ font-family: 'Open Sans', sans-serif;
     margin-top: 24px;
     
 }
+.articleOne {
+	height: 100%;
+}
 
 .rowOne{
 	display: flex;
@@ -219,7 +214,7 @@ font-family: 'Open Sans', sans-serif;
     justify-content: flex-end;
 }
 
-.rowOne  > a > .firstArticle{
+.rowOne  >  .firstArticle{
 	       background: #BC3428;
     height: 722px;
     width: 643.6px;
@@ -228,7 +223,7 @@ font-family: 'Open Sans', sans-serif;
 
     box-sizing: border-box;
 }
- .rowOne > a > .secondArticle{
+ .rowOne > .secondArticle{
 	background:#C7372A;
     height: 722px;
       width:643.6px;
@@ -237,7 +232,7 @@ font-family: 'Open Sans', sans-serif;
 
         box-sizing: border-box;
 }
- .rowTwo  > a > .thirdArticle{
+ .rowTwo  > .thirdArticle{
 	background: #B13125;
       height: 573px;
       width: 100%;
@@ -247,7 +242,7 @@ font-family: 'Open Sans', sans-serif;
 
         box-sizing: border-box;
 }
- .rowTwo > a > .fourthArticle{
+ .rowTwo > .fourthArticle{
 	background: #BC3428;
         height: 573px;
   width: 100%;
@@ -269,7 +264,17 @@ a{
     border-radius: 14px;
     transform: rotate(-20deg);
     border: 4px solid white;
+ transition:transform 0.2s ease-in-out;
+ transform: rotate(-20deg);
+ box-shadow: 0px 27px 25px -19px;
 }
+
+.authorDetails > img:hover{
+box-shadow: none;
+transform: none;
+}
+
+
 .authorDetails > h2{
    font-size: 21px;
     font-family: 'Sniglet', cursive;
@@ -424,6 +429,18 @@ line-height: 27px;
 .adjustment{
     margin-top: 120px;
 }
+.secondContentLink{
+        margin: 60px auto;
+    border-bottom: 4px solid #D33A2C;
+    height: 27px;
+   
+}.secondContentLink > a{
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-decoration: none;
+}
+
 /*Styles for the third content in main content section*/
 
 .thirdContent{
@@ -684,7 +701,7 @@ margin-bottom: 1.5em;
 
 .designer-one > img{
 border-radius: 50%;
- transition:transform 0.8s ease-in-out;
+ transition:transform 0.2s ease-in-out;
  transform: rotate(-20deg);
  box-shadow: 0px 27px 25px -19px;
 }
@@ -774,7 +791,7 @@ margin-left: 5px;
 }
 .designer-first > img{
 
- transition:transform 0.8s ease-in-out;
+ transition:transform 0.2s ease-in-out;
  transform: rotate(-20deg);
  box-shadow: 0px 27px 25px -19px;
 }
