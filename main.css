@@ -145,7 +145,7 @@ font-family: 'Open Sans', sans-serif;
      transition: all 0.3s;  
 }
 
-.firstContent > header > div > div >button:hover {
+.headIconContainer > div >button:hover {
      background-color: white;
     color:#C7372A;
 }
@@ -240,7 +240,6 @@ font-family: 'Open Sans', sans-serif;
     padding-top: 73px;
     padding-left: 68px;
     box-sizing: border-box;
-
         box-sizing: border-box;
 }
  .rowTwo > .fourthArticle{
@@ -435,7 +434,8 @@ line-height: 27px;
     border-bottom: 4px solid #D33A2C;
     height: 27px;
    
-}.secondContentLink > a{
+}
+.secondContentLink > a{
     font-size: 17px;
     font-family: 'Merriweather', serif;
     color: black;
