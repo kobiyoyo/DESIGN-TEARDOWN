@@ -4,6 +4,6 @@ In this  project,the main objective is to clone  – Smashing Magazine. The goal
 
 [Smashing Magazine ](https://smashingmagazine.com)
 
-# Developers
+## Developers
 [Danilo Zagarcanin ](https://github.com/danilozag1992)
 [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
